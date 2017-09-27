@@ -1,0 +1,43 @@
+/* Gallery Style+Fix*/
+
+#aboutMe {
+    margin: 0 auto;
+}
+
+.imgFix {
+    max-height: 275px;
+}
+
+@media (max-width: 992px){
+    .imgFix {
+        max-height: 180px;
+    }
+}
+
+@media (max-width: 450px){
+    .imgFix {
+        max-height: 120px;
+    }
+}
+.gallery {
+    margin: 4em auto;
+}
+
+.gallery ul {
+    margin: 2em auto;
+}
+
+/*Home Page - About Me+Resume*/
+
+#aboutMe {
+    margin-top: 4em;
+}
+
+.aboutMeRow {
+    margin: 2em auto;
+}
+
+.aboutMeRow div p{
+    padding: auto 0;
+}
+
